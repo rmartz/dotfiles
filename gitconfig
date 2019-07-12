@@ -1,0 +1,13 @@
+[alias]
+	aliases = !git config --get-regexp ^alias\\. | sed -e s/^alias.// -e s/\\ /\\ $(printf \"\\043\")--\\>\\ / | column -t -s $(printf \"\\043\") | sort -k 1
+	st = status
+	pushf = push --force-with-lease
+	clean-merged = !git branch --merged | egrep -v \"(^\\*|master|develop)\" | xargs git branch -d
+[user]
+	name = Reed Martz
+	email = rmartz@azavea.com
+[push]
+	default = simple
+
+[help]
+	autocorrect = 1
