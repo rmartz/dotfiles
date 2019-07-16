@@ -5,7 +5,7 @@
 	clean-merged = !git branch --merged | egrep -v \"(^\\*|master|develop)\" | xargs git branch -d
 [user]
 	name = Reed Martz
-	email = rmartz@azavea.com
+	email = reed@reedmartz.com
 [push]
 	default = simple
 
