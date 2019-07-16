@@ -47,18 +47,8 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "window.zoomLevel": 0,
-    "[elm]": {
-        "editor.formatOnSave": true
-    },
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
     "git.autofetch": true,
-    "githubPullRequests.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
     "python.jediEnabled": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
