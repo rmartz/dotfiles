@@ -9,5 +9,13 @@
 [push]
 	default = simple
 
-[help]
-	autocorrect = 1
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interative = auto
+	ui = true
+	pager = true
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
