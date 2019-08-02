@@ -41,7 +41,7 @@
         "yml"
     ],
     "editor.rulers": [
-        100
+        80
     ],
     "editor.fontFamily": "Inconsolata, Monaco, Consolas, 'Courier New', Courier",
     "python.linting.flake8Enabled": true,
@@ -51,5 +51,11 @@
     "git.autofetch": true,
     "python.jediEnabled": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "go.useLanguageServer": true,
+    "go.liveErrors": {
+        "enabled": false,
+        "delay": 500
+    },
+    "go.autocompleteUnimportedPackages": true,
 }
